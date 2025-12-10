@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container p">
+            <ul class="flex gap ai jc">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+    </header>
+    <form class=" container form" action="submit.html">
+        <label for="fname" placeholder="John Doe" required >Full Name: </label>
+        <input class="input" type="text" placeholder="John Doe" required  id="fname">
+        <label for="email">Email: </label>
+        <input class="input" type="email" name="email" id="email">
+        <fieldset>
+            <legend>Rating</legend>
+            <input type="radio" name="vs" id="vs">
+            <label for="vs">Very Satisfied</label>
+            <input type="radio" name="s" id="s">
+            <label for="s">Satisfied</label>
+            <input type="radio" name="n" id="n">
+            <label for="n">Neutral</label>
+            <input type="radio" name="us" id="us">
+            <label for="us">Unsatisfied</label>
+        </fieldset>
+        <fieldset>
+            <legend>Interests</legend>
+            <input type="checkbox" name="" id="wb">
+            <label for="wb">Very Satisfied</label>
+            <input type="checkbox" name="" id="mb">
+            <label for="mb">Very Satisfied</label>
+            <input type="checkbox" name="" id="aiml">
+            <label for="aiml">Very Satisfied</label>
+        </fieldset>
+
+    </form>
+</body>
+</html>
