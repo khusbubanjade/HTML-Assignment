@@ -90,10 +90,6 @@ button{
     border-radius: 10px;
 }
 
-
-/* ===============================
-   MOBILE (≤ 768px)
-   =============================== */
 @media (max-width: 768px) {
 
     .container {
@@ -130,9 +126,6 @@ button{
     }
 }
 
-/* ===============================
-   TABLET (769px – 1024px)
-   =============================== */
 @media (min-width: 769px) and (max-width: 1024px) {
 
     .container {
@@ -154,9 +147,6 @@ button{
     }
 }
 
-/* ===============================
-   DESKTOP (> 1024px)
-   =============================== */
 @media (min-width: 1025px) {
 
     .container {
