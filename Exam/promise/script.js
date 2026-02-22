@@ -12,9 +12,9 @@ const paybtn = document.getElementById("paybtn")
 
 paybtn.addEventListener("click", ()=>{
     message.textContent = "Processing Payment...."
+    paybtn.disabled = true
 
     pay().then((text) => {
         message.textContent = text
-        paybtn.disable = true
     })
 })
